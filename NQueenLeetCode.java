@@ -1,11 +1,12 @@
 package recursion;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class NQueenLeetCode {
     public static void main(String[] args) {
-        int n = 1;
+        int n = 4;
         boolean[][] board = new boolean[n][n];
         System.out.println(queens1(board, 0));
     }
