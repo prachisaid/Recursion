@@ -53,7 +53,6 @@ public class Maze {
 
          ArrayList<String> left = new ArrayList<>();
          ArrayList<String> right = new ArrayList<>();
-//        ArrayList<String> list = new ArrayList<>();
 
         if(row != 1) {
             left = (mazePatternReturn(p + "D", row - 1, col));
